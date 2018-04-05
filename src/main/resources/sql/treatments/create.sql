@@ -1,0 +1,1 @@
+INSERT INTO treatments (name) VALUES (?);

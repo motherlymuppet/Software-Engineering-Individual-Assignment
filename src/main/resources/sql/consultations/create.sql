@@ -1,0 +1,1 @@
+INSERT INTO consultations (time, practice_id, consultant_id, patient_id) VALUES (?, ?, ?, ?);

@@ -1,0 +1,1 @@
+INSERT INTO prescribed_medicines (patient_id, medicine_id) VALUES (@patient_id,?);
