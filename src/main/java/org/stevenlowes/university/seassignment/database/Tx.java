@@ -34,7 +34,7 @@ public class Tx<T> {
     private final Transaction<T> transaction;
 
     private Tx(@NotNull Transaction<T> transaction) throws SQLException {
-        connection = DriverManager.getConnection("jdbc:mysql://mysql.dur.ac.uk:3306/Pxvhn44_hospital?allowMultiQueries=true", "xvhn44", "boston93");
+        connection = DriverManager.getConnection("jdbc:mysql://mysql.dur.ac.uk:3306/Pxvhn44_hospital?allowMultiQueries=true", "USER", "PASS");
         connection.setAutoCommit(false);
         this.transaction = transaction;
     }
